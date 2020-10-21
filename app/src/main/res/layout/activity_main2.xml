@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Main">
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/updateDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickLogin"
-        android:text="@string/loginButton"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:onClick="onClickUpdateDetails"
+        android:text="@string/updateUserButton"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="454dp" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/events"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClockRegister"
-        android:text="@string/registerButton"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="435dp" />
+        android:onClick="onClickEvents"
+        android:text="@string/eventsButton"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="546dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

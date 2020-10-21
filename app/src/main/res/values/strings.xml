@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="newEventButton">new event</string>
+    <string name="updateUserButton">update user details</string>
+    <string name="updateEventButton">update event</string>
+    <string name="registerButton">register</string>
+    <string name="loginButton">login</string>
+    <string name="eventsButton">events</string>
+    <string name="backButton">back</string>
 </resources>
